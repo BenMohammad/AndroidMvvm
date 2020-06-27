@@ -1,16 +1,13 @@
 package com.benmohammad.androidmvvm.login
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.benmohammad.androidmvvm.R
 import com.benmohammad.androidmvvm.ScreenState
 import com.benmohammad.androidmvvm.main.MainActivity
-import com.benmohammad.androidmvvm.main.MainState
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity: AppCompatActivity() {
